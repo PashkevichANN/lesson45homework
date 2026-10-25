@@ -16,8 +16,9 @@ string calculate(int* array, int size) {
 			positive++;
 		}
 	}
-	string msg = "Amount of zero: " + to_string(zero) + ", negative number: "
-		+ to_string(negative) + ", positive number: " + to_string(positive);
+	string msg = "Amount of zero: " + to_string(zero) 
+		+ ", negative number: " + to_string(negative)
+		+ ", positive number: " + to_string(positive);
 
 	return msg;
 }
